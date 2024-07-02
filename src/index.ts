@@ -1,3 +1,4 @@
+import { createRequire } from 'node:module';
 import type { Options as MdxLoaderOptions } from '@mdx-js/loader';
 import type { RsbuildPlugin } from '@rsbuild/core';
 
@@ -49,6 +50,7 @@ export const pluginMdx = (options: PluginMdxOptions = {}): RsbuildPlugin => ({
 			});
 
 			const MDX_REGEXP = createRegExp(extensions);
+			const require = createRequire(import.meta.url);
 
 			mdxRule
 				.test(MDX_REGEXP)
