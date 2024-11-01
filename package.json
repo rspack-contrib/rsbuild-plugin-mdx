@@ -33,26 +33,26 @@
 		]
 	},
 	"dependencies": {
-		"@mdx-js/loader": "^3.0.1"
+		"@mdx-js/loader": "^3.1.0"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "^1.9.2",
-		"@playwright/test": "^1.47.2",
-		"@rsbuild/core": "^1.0.9",
-		"@rsbuild/plugin-preact": "^1.0.2",
-		"@rsbuild/plugin-react": "^1.0.3",
-		"@rsbuild/plugin-svgr": "^1.0.3",
-		"@rsbuild/plugin-vue": "^1.0.1",
-		"@types/node": "^20.16.10",
+		"@biomejs/biome": "^1.9.4",
+		"@playwright/test": "^1.48.2",
+		"@rsbuild/core": "^1.0.19",
+		"@rsbuild/plugin-preact": "^1.1.1",
+		"@rsbuild/plugin-react": "^1.0.6",
+		"@rsbuild/plugin-svgr": "^1.0.5",
+		"@rsbuild/plugin-vue": "^1.0.3",
+		"@types/node": "^20.17.5",
 		"nano-staged": "^0.8.0",
-		"playwright": "^1.47.2",
-		"preact": "^10.24.1",
+		"playwright": "^1.48.2",
+		"preact": "^10.24.3",
 		"react": "^18.3.1",
 		"react-dom": "^18.3.1",
 		"simple-git-hooks": "^2.11.1",
-		"tsup": "^8.3.0",
-		"typescript": "^5.6.2",
-		"vue": "^3.5.10"
+		"tsup": "^8.3.5",
+		"typescript": "^5.6.3",
+		"vue": "^3.5.12"
 	},
 	"peerDependencies": {
 		"@rsbuild/core": "0.x || 1.x || ^1.0.1-beta.0"
@@ -62,7 +62,7 @@
 			"optional": true
 		}
 	},
-	"packageManager": "pnpm@9.11.0",
+	"packageManager": "pnpm@9.12.3",
 	"publishConfig": {
 		"access": "public",
 		"registry": "https://registry.npmjs.org/"
