@@ -16,13 +16,13 @@
 	"types": "./dist/index.d.ts",
 	"files": ["dist"],
 	"scripts": {
-		"build": "tsup",
-		"dev": "tsup --watch",
+		"build": "rslib build",
+		"dev": "rslib build --watch",
 		"lint": "biome check .",
 		"lint:write": "biome check . --write",
 		"prepare": "simple-git-hooks && npm run build",
 		"test": "playwright test",
-    "bump": "npx bumpp"
+		"bump": "npx bumpp"
 	},
 	"simple-git-hooks": {
 		"pre-commit": "npx nano-staged"
@@ -43,6 +43,7 @@
 		"@rsbuild/plugin-react": "^1.0.6",
 		"@rsbuild/plugin-svgr": "^1.0.5",
 		"@rsbuild/plugin-vue": "^1.0.3",
+		"@rslib/core": "^0.0.16",
 		"@types/node": "^22.8.6",
 		"nano-staged": "^0.8.0",
 		"playwright": "^1.48.2",
@@ -50,7 +51,6 @@
 		"react": "^18.3.1",
 		"react-dom": "^18.3.1",
 		"simple-git-hooks": "^2.11.1",
-		"tsup": "^8.3.5",
 		"typescript": "^5.6.3",
 		"vue": "^3.5.12"
 	},
