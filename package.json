@@ -37,22 +37,22 @@
 	},
 	"devDependencies": {
 		"@biomejs/biome": "^1.9.4",
-		"@playwright/test": "^1.48.2",
-		"@rsbuild/core": "^1.0.19",
-		"@rsbuild/plugin-preact": "^1.1.1",
-		"@rsbuild/plugin-react": "^1.0.6",
+		"@playwright/test": "^1.49.0",
+		"@rsbuild/core": "^1.1.6",
+		"@rsbuild/plugin-preact": "^1.2.0",
+		"@rsbuild/plugin-react": "^1.0.7",
 		"@rsbuild/plugin-svgr": "^1.0.5",
-		"@rsbuild/plugin-vue": "^1.0.3",
-		"@rslib/core": "^0.0.16",
-		"@types/node": "^22.8.6",
+		"@rsbuild/plugin-vue": "^1.0.5",
+		"@rslib/core": "^0.1.1",
+		"@types/node": "^22.10.1",
 		"nano-staged": "^0.8.0",
-		"playwright": "^1.48.2",
-		"preact": "^10.24.3",
+		"playwright": "^1.49.0",
+		"preact": "^10.25.0",
 		"react": "^18.3.1",
 		"react-dom": "^18.3.1",
 		"simple-git-hooks": "^2.11.1",
-		"typescript": "^5.6.3",
-		"vue": "^3.5.12"
+		"typescript": "^5.7.2",
+		"vue": "^3.5.13"
 	},
 	"peerDependencies": {
 		"@rsbuild/core": "1.x"
@@ -62,7 +62,7 @@
 			"optional": true
 		}
 	},
-	"packageManager": "pnpm@9.12.3",
+	"packageManager": "pnpm@9.14.4",
 	"publishConfig": {
 		"access": "public",
 		"registry": "https://registry.npmjs.org/"
