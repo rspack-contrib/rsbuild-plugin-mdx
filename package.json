@@ -1,6 +1,6 @@
 {
 	"name": "@rsbuild/plugin-mdx",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"repository": "https://github.com/rspack-contrib/rsbuild-plugin-mdx",
 	"license": "MIT",
 	"type": "module",
