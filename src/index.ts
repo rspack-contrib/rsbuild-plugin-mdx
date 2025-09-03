@@ -63,6 +63,14 @@ export const pluginMdx = (options: PluginMdxOptions = {}): RsbuildPlugin => ({
 			if (chain.plugins.has(REACT_FAST_REFRESH)) {
 				chain.plugins.get(REACT_FAST_REFRESH).tap((options) => {
 					const firstOption = options[0] ?? {};
+					if (firstOption.test) {
+						firstOption.test = [
+							...(Array.isArray(firstOption.test)
+								? firstOption.test
+								: [firstOption.test]),
+							MDX_REGEXP,
+						];
+					}
 					firstOption.include = [...(firstOption.include || []), MDX_REGEXP];
 					options[0] = firstOption;
 					return options;
